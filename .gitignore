@@ -1,0 +1,27 @@
+# Environment — never commit API keys
+.env
+.env.example
+*.pyc
+__pycache__/
+
+# ChromaDB local data
+chroma_db/
+*.sqlite3
+
+# Python venv
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Sentence transformer cache
+.cache/
