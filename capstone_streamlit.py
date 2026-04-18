@@ -1,6 +1,6 @@
 # =============================================================
-# vakeel_ai_app.py — Vakeel.AI Streamlit UI
-# Run: streamlit run vakeel_ai_app.py
+# capstone_streamlit.py — Vakeel.AI Streamlit UI
+# Run: streamlit run capstone_streamlit.py
 # =============================================================
 
 import streamlit as st
@@ -301,7 +301,7 @@ hr {
 # ═══════════════════════════════════════════════════════════
 # LOAD AGENT (cached — only runs once per session)
 # ═══════════════════════════════════════════════════════════
-from vakeel_ai_agent import build_agent, DOCUMENTS, IPC_LOOKUP
+from agent import build_agent, DOCUMENTS, IPC_LOOKUP
 
 @st.cache_resource(show_spinner=False)
 def get_agent():
